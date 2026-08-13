@@ -6,12 +6,14 @@
 
 body{
     font-family: sans-serif;
+    min-height: 100vh;
+    place-items: center;
 }
 
 /*header*/
 .site-init{
-    background-color: rgb(56, 55, 55);
-    color: white;
+    background-color: rgb(153, 153, 143);
+    color: rgb(196, 84, 50);
     padding: 20px;
     display: block;
 }
@@ -21,12 +23,10 @@ h1{
     text-align: center;
 }
 
-img{
-    max-width: 100%;
-}
+
 
 a{
-    color: white;
+    color: rgb(45, 51, 22);
     font-style: arial;
     text-decoration: none;
     display: inline;
@@ -35,7 +35,7 @@ a{
 
 .menu-submit{
     display: block;
-    color: #ffcc00;
+    color: #2c2219;
     text-align: center;
     text-decoration: underline;
 }
@@ -68,6 +68,38 @@ a{
     margin: 10px;
 }
 
-/*main*/
+/*body*/
+.body-background{
+    background-color: ivory;
+}
+/*body*/
 
-/*main*/
+/*grid*/
+
+.flex-container{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    
+}
+
+.flex-item{
+    flex: 0 1 auto;
+}
+
+/*grid*/
+
+/*footer*/
+.footer{
+    background-color: rgb(153, 153, 143);
+    color: rgb(196, 84, 50);
+}
+
+/*footer*/
+
+img{
+    max-width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: contain;
+}
