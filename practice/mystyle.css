@@ -1,0 +1,32 @@
+h1{
+    color: Black;
+    font-style: arial;
+    text-align: center;
+}
+
+a {
+    color: Black;
+    font-style: arial;
+}
+
+.special-p{
+    color:brown;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.special-i{
+    color:brown;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.special-a{
+    text-align: center;
+    color: white;
+    font-style: arial;
+}
+
+header{
+    background-color: #252424;
+}
