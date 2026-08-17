@@ -30,3 +30,39 @@ a {
 header{
     background-color: #252424;
 }
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 40vh;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: rgb(223, 241, 241);
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
