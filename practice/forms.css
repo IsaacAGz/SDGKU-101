@@ -1,0 +1,36 @@
+.form-container{
+    background-color: orange;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:bisque;
+    color: Green;
+    padding: 5px;
+    width: 100px;
+}
+
+.input-container input, .input-container textarea{
+    background-color: rgb(247, 234, 198);
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.form-container h2{
+    color: rgb(139, 58, 58);
+}
+
+
+label{
+    width: 15%;
+}
